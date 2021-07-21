@@ -1,0 +1,10 @@
+apiVersion: skaffold/v1
+kind: Config
+build:
+  artifacts:
+  - image: registry.tino.sh/bier-frontend
+    context: ../../
+    docker:
+      target: frontend
+deploy:
+  kustomize: {}

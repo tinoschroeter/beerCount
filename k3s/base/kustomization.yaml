@@ -1,0 +1,3 @@
+resources:
+  - bier-frontend.yaml
+  - service.yml

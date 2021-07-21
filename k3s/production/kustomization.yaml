@@ -1,0 +1,6 @@
+namespace: bier
+
+bases:
+  - config.yaml
+  - ../base
+  - ingress.yaml

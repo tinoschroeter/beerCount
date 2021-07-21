@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: bier-frontend
+  name: bier-frontend
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: bier-frontend
+  template:
+    metadata:
+      labels:
+        app: bier-frontend
+    spec:
+      containers:
+      - name: bier-frontend
+        image: registry.tino.sh/bier-frontend
+        resources:
+          requests:
+            memory: "50Mi"
+            cpu: "30m"
+          limits:
+            memory: "64Mi"
+            cpu: "100m"
+      nodeSelector:
+        arch: arm64

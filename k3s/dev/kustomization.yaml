@@ -1,0 +1,10 @@
+namespace: dev-bier
+
+replicas:
+- name: bier-frontend
+  count: 1
+
+bases:
+  - config.yaml
+  - ../base
+  - ingress.yaml
