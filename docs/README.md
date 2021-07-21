@@ -1,15 +1,15 @@
 ## Beer Counter
 
-Erstellt mit Reacti, gehostet in Kubernetes
+Erstellt mit React, gehostet mit Kubernetes
 
 ## Home Screen
 
-![home](https://raw.githubusercontent.com/tinoschroeter/beerCounter/master/docs/img_01.jpg)
+![home](https://raw.githubusercontent.com/tinoschroeter/beerCount/master/docs/img_01.jpg)
 
 ## Menu
 
-![menu](https://raw.githubusercontent.com/tinoschroeter/beerCounter/master/docs/img_02.jpg)
+![menu](https://raw.githubusercontent.com/tinoschroeter/beerCount/master/docs/img_02.jpg)
 
 ## History
 
-![history](https://raw.githubusercontent.com/tinoschroeter/beerCounter/master/docs/img_03.jpg)
+![history](https://raw.githubusercontent.com/tinoschroeter/beerCount/master/docs/img_03.jpg)
