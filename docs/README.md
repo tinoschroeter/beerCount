@@ -1,6 +1,11 @@
 ## Beer Counter
 
-Erstellt mit React, gehostet mit Kubernetes
+Erstellt mit React, gehostet in Kubernetes
+
+[![BoS](https://img.shields.io/badge/React-blue.svg)](https://github.com/facebook/react)
+[![BoS](https://img.shields.io/badge/Kubernetes-blue.svg)](https://github.com/kubernetes/kubernetes)
+
+[Demo](https://beer.tino.sh)
 
 ## Home Screen
 
