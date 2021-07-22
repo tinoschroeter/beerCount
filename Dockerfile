@@ -13,5 +13,5 @@ RUN npm install && \
 FROM nginx:1.21.0 AS frontend
 
 WORKDIR /usr/share/nginx/html
-COPY --from=builder /root/build .
+COPY --from=builder /dev/build .
 COPY frontend/nginx.conf /etc/nginx/conf.d/default.conf
