@@ -53,6 +53,7 @@ const submitHandler = e => {
                      <select name="beerSize" value={ beerSize } onChange={e => setBeerSize(e.target.value)} >
                         <option value="8">0.2 l</option>
                         <option value="13.33">0.33 l</option>
+                        <option value="16">0.4 l</option>
                         <option value="20">0.5 l</option>
                      </select>
                 </p>
