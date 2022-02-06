@@ -1,7 +1,10 @@
 const ResetButton = ({ resetHandler }) => {
-    return (
-       <button className="btn" onClick={ resetHandler }> Neue Runde </button>
-    )
-}
+  return (
+    <button className="btn" onClick={resetHandler}>
+      {" "}
+      Neue Runde{" "}
+    </button>
+  );
+};
 
-export default ResetButton
+export default ResetButton;
