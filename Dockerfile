@@ -1,6 +1,5 @@
 FROM node:16.2.0-stretch AS builder
 
-RUN apt update && apt dist-upgrade -y
 WORKDIR /srv
 COPY frontend .
 
