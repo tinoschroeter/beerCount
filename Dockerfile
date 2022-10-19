@@ -7,7 +7,7 @@ RUN npm install && \
     npm run build
 
 # Frontend
-FROM nginx:1.23.0-alpine AS frontend
+FROM nginx:1.23.1-alpine AS frontend
 
 WORKDIR /usr/share/nginx/html
 COPY --from=builder /srv/build .
