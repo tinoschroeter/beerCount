@@ -1,4 +1,4 @@
-## Beer Counter
+# Beer Counter
 
 Erstellt mit React, gehostet in Kubernetes
 
